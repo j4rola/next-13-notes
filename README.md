@@ -1,10 +1,10 @@
-/* Dynamic Routing
+Dynamic Routing <br></br>
  To create a dynamic route, first create folder in the desired directory and
  put its name inside of brackets. The name you choose does not matter. You will will
  need to use this name inside your page component for the dynamic route if you want
  to access the dynamic value but the actual value that you choose does not matter to
  begin with
-*/ 
+
 
 
 
