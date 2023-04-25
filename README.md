@@ -1,9 +1,16 @@
-Dynamic Routing <br></br>
+<h1>File Structure</h1> <br></br>
+
+Like the previous versions, Next 13 uses the file system to create routes. This
+method is used for both client and server side route creation. The main difference is that the endpoint of the route is a directory and not a file. 
+Inside this ending directory, generic file names are used to modify the behavior and/or appearance of the endpoint. For expample, if your client side endpoint is '/menu/learn-more', learn-more is a directory that will contain a page.jsx file that will describe the ui of that endpoint. On the server side if you have an endpoint called 'users/create-user', create-user will be a directory containing a route.js file that will handle the request/response lifecycle. 
+
+
+<h1>Dynamic Routing</h1> <br></br>
  To create a dynamic route, first create folder in the desired directory and
  put its name inside of brackets. The name you choose does not matter. You will will
  need to use this name inside your page component for the dynamic route if you want
- to access the dynamic value but the actual value that you choose does not matter to
- begin with
+ to access the dynamic value, but the actual value that you choose is arbitrary to
+ begin with. 
 
 
 
